@@ -1,0 +1,267 @@
+.navbar{
+    background-color: #1e202b;
+}
+.navbar-brand h6{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.navbar-brand p{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 1px;
+    color: #fff;
+}
+.nav-item a{
+    color: #fff;
+    margin-right: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    border: transparent 2px solid;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+.nav-item a:hover{
+    color: #009ad8;
+    border: #009ad8 2px solid;
+    border-radius: 50px;
+}
+.navbar-toggler-icon{
+    background-color: #009ad8;
+}
+.hero-section{
+    height: 60vh;
+}
+.hero-section .first-bg{
+    background-image: url(../images/imgi_7_banner.webp);
+    background-position: center center;
+    background-size: cover;
+    height: 48vh;
+}
+.hero-section .second-bg{
+    background-color: #1e202b;
+    height: 45vh;
+}
+.footer-section{
+    background-color: #262936;
+    height: 30vh;
+}
+.email-form{
+    background-color: #1e202b;
+    padding: 5px;
+    border-radius: 50px;
+}
+.email-form input{
+    background-color: #1e202b;
+    outline: none;
+    border: 0;
+    padding: 12px;
+    border-radius: 50px; 
+}
+.email-form button{
+    padding: 12px;
+    border-width: 0;
+    border-radius: 50px; 
+    background-color: #009ad8; 
+    color: #fff;
+}
+input[type="email"]{
+    color: #fff;
+}
+.icons{
+    font-size: 20px;
+    color: #009ad8;
+    width: 40px;
+    height: 40px;
+    background-color: #1e202b;
+    text-align: center;
+    border-radius: 50%;
+}
+.icons i{
+    margin-top: 10px;
+}
+.icons:hover{
+    background-color: #009ad8;
+    color: #fff;
+}
+.copyright-text{
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 300;
+}
+.weather-section .search-input{
+    background-color: #1e202b;
+    margin-top: 3.5rem;
+    padding: 5px;
+    border-radius: 50px;
+}
+.weather-section .search-input input{
+    background-color: #1e202b;
+    border-width: 0;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+}
+.weather-section .search-input button{
+    background-color: #009ad8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    border-width: 0;
+}
+.weather-section .search-input input[type="text"]{
+    color: #fff;
+}
+.weather-content{
+    margin-top: 3.5rem;
+}
+.current-day{
+    background-color: #323544;
+    border-radius: 10px 0 0 10px;
+}
+.current-day .date-part{
+    background-color: #2d303d;
+    border-radius: 10px 0 0 0;
+}
+.current-day .date-part p{
+    color: #bfc1c8;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 0 8px;
+    margin-top: 13px;
+}
+.current-day .weather-part .city-name{
+    font-family: sans-serif;
+    color: #bfc1c8;
+    font-size: 18px;
+    font-weight: 400;
+}
+.current-day .weather-part h2{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 700;
+}
+.current-day .weather-part .time-icon img{
+    width: 6rem;
+}
+.current-day .weather-part .weather{
+    color: #009ad8;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300
+}
+.current-day .weather-part .winds-data span{
+    color: #bfc1c8;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.next-day .next-day-head{
+    background-color: #222530;
+}
+.next-day .next-day-head p{
+    color: #bfc1c8;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14.5px;
+}
+.next-day .next-day-body{
+    background-color: #262936;
+}
+.next-day{
+    background-color: #262936;
+}
+.next-day-body span img{
+    width: 3rem;
+}
+.next-day-body h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.next-day-body h6{
+    color: #bfc1c8;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.next-day-body p{
+    color: #009ad8;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.after-next-day{
+    background-color: #323544;
+    border-radius: 0 10px 10px 0;
+}
+.after-dat-head{
+    background-color: #2d303d;
+    border-radius: 0 10px 0 0;
+}
+.after-dat-head p{
+    color: #bfc1c8;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14.5px;
+}
+.action{
+    color: #009ad8 !important;
+    border: #009ad8 2px solid !important;
+    border-radius: 50px !important;
+}
+@media (min-width:992px) {
+    .navbar{
+    min-height: 19vh;
+}
+}
+@media (max-width:1200px){
+    .hero-section .second-bg{
+        height: 58vh !important;
+}
+}
+@media (max-width:1200px) and (min-width:992px){
+    .current-day .weather-part h2{
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 85px;
+    font-weight: 700;
+}
+}
+@media (max-width:992px) {
+    .nav-item{
+        text-align: center;
+        margin-top: 5px;
+    }
+    .navbar-nav{
+        background-color: #262936;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+    .hero-section .second-bg{
+    height: 135vh !important;
+}
+}
+@media (max-width:768px){
+    .hero-section .second-bg{
+        height: 140vh !important;
+}
+}
+@media (max-width:576px){
+    .hero-section .second-bg{
+        height: 140vh !important;
+}
+}
