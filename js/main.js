@@ -1,15 +1,25 @@
 const searchInput = document.getElementById('searchInput')
 const btn = document.getElementById('btn')
 
-async function getLocation() {
-    const locationUrl = await fetch(`https://apiip.net/api/check?accessKey=b189cdc1-cfa9-452c-93ef-91518e32e32d`)
+navigator.geolocation.getCurrentPosition(
+    function(position){
+        let latitude = position.coords.latitude
+        let longitude = position.coords.longitude
+        getLocation(latitude, longitude)
+    },
+    function(){
+        window.alert('Error getting location')
+    }
+)
+
+async function getLocation(lat, long){
+    const locationUrl = await fetch(`https://api.opencagedata.com/geocode/v1/json?q=${lat}+${long}&key=703a33cf0de04a7d9a462b4053262b58`)
     const locationResult = await locationUrl.json()
-    getWeatherData(locationResult.city)
+    getWeatherData(locationResult.results[0].components._normalized_city)
 }
-getLocation()
 
 searchInput.addEventListener('input',function(e){
-    getWeatherData(e.target.value) 
+    getWeatherData(e.target.value)
 })
 btn.addEventListener('click',function(e){
     e.preventDefault()
